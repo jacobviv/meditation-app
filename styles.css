@@ -1,0 +1,35 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0;
+    overflow: hidden;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #000000;
+    transition: background-color 5s ease;
+}
+
+#appTitle {
+    color: rgb(255, 255, 255, 0.9);
+
+}
+
+#instructions {
+    color: rgb(255, 255, 255, 0.5);
+    margin-top: 10px;
+}
+
+#bottomText {
+    color: rgb(255, 255, 255, 0.15);
+    font-family: sans-serif;
+    font-size: small;
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+}
